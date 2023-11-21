@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: #fff;
+  background-color: #0a0a0b;
   line-height: 1.5;
   overflow-x: hidden;
 }
@@ -76,8 +76,165 @@ button {
 /* -------------------------------- header ----------------------------------- */
 /* -------------------------------- Sevinch --------------------------------- */
 
-.header_wrap{
+.header_wrap {
   width: 100%;
+}
+
+.common_container {
+  background-image: url("./assets/foto/header_left-bg.svg");
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.common_container2 {
+  background-image: url("./assets/foto/header_right-bg.svg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.main_header {
+  padding: 30px 0;
+}
+
+.main_header__container {
+  width: 1099px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 72px;
+}
+
+.header_logo {
+  vertical-align: middle;
+}
+
+.logo_title {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.main_header__list {
+  display: flex;
+}
+
+.main_header__item {
+  margin-left: 16px;
+}
+
+.main_header__link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 16px;
+}
+
+.active_link {
+  color: #4177dc;
+}
+
+/* hero */
+.hero_content {
+  text-align: center;
+}
+
+.hero_title {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 140%;
+  margin-bottom: 20px;
+}
+
+.hero_text {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 140%;
+  margin-bottom: 8px;
+}
+
+.hero_text__bottom {
+  color: #babec4;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  margin-bottom: 48px;
+}
+
+.hero_text__img {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  vertical-align: middle;
+  margin-right: 4px;
+  padding-bottom: 5px;
+}
+
+.hero_img {
+  margin-bottom: 72.48px;
+}
+
+.hero_list {
+  margin-bottom: 41px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.hero_item {
+  text-align: center;
+  margin-bottom: 33px;
+}
+
+.hero_img {
+  margin-bottom: 22px;
+}
+
+.hero_sub-title {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 140%;
+  margin-bottom: 4px;
+}
+
+.hero_des {
+  color: #888b91;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.hero_btn {
+  width: 90px;
+  height: 90px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  border: 2px solid #099260;
+  filter: drop-shadow(0px 0px 16px #02db8a);
+  background-color: #0a0a0b;
+  margin-bottom: 33px;
+  padding: 8px;
+}
+
+.hero_btn2 {
+  width: 70px;
+  height: 70px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  border: 2px solid #099260;
+  color: #fff;
+  background-color: #0a0a0b;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 140%;
+  padding: 25px 11px;
 }
 /* -------------------------------- /Sevinch -------------------------------- */
 /* -------------------------------- /header ---------------------------------- */
@@ -86,7 +243,7 @@ button {
 
 .main_wrap {
   width: 100%;
-  background: var(--body-color, #0A0A0B);
+  background: var(--body-color, #0a0a0b);
 }
 
 /* ----------------------------- Teamlead ----------------------------- */
@@ -102,7 +259,7 @@ button {
 /* -------------------------------- footer -------------------------------- */
 /* -------------------------------- Muhammad ------------------------------ */
 
-.footer_wrap{
+.footer_wrap {
   width: 100%;
 }
 
