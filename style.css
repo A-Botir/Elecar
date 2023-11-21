@@ -86,6 +86,7 @@ button {
 
 .main_wrap {
   width: 100%;
+  background: var(--body-color, #0A0A0B);
 }
 
 /* ----------------------------- Teamlead ----------------------------- */
