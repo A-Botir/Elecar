@@ -81,15 +81,10 @@ button {
 }
 
 .common_container {
-  background-image: url("./assets/foto/header_left-bg.svg");
-  background-repeat: no-repeat;
-  background-position: top left;
-}
-
-.common_container2 {
-  background-image: url("./assets/foto/header_right-bg.svg");
-  background-repeat: no-repeat;
-  background-position: bottom right;
+  background-image: url("./assets/foto/header_left-bg.svg"),
+    url("./assets/foto/header_right-bg.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: top left, bottom right;
 }
 
 .main_header {
@@ -248,7 +243,96 @@ button {
 
 /* ----------------------------- Teamlead ----------------------------- */
 
-/* ------------------------------ /Teamlead -------------------------- */
+/* ------------------------------ about -------------------------------- */
+.about {
+  gap: 88px;
+  margin-top: 72px;
+  margin-bottom: 88px;
+}
+
+.about__img__group {
+  position: relative;
+  max-width: 480px;
+  max-height: 372px;
+  border-radius: 8px;
+}
+
+.about_img_pic {
+  width: 480px;
+  height: 320px;
+}
+
+.about__img__text {
+  position: absolute;
+  right: 0;
+  top: 268px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  padding: 16px 20px;
+  text-align: center;
+  width: 197px;
+  box-sizing: border-box;
+}
+
+.about__img__title {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 140%;
+  margin-bottom: 8px;
+}
+
+.about__img__subtitle {
+  width: 157px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.about__aside__title {
+  color: #f1f2f3;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 140%;
+  margin-bottom: 24px;
+  width: 210px;
+}
+
+.about__aside__subtitle {
+  color: #babec4;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  margin-bottom: 48px;
+  width: 401px;
+}
+
+.about__aside__button {
+  border-radius: 4px;
+  background: #4177dc;
+  padding: 14px 32px;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+/* ------------------------------ popular ------------------------------ */
+
+.popular__title {
+  color: #f1f2f3;
+  font-family: Exo;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 140%;
+  margin-bottom: 64px;
+}
+
+
+/* ------------------------------ /Teamlead --------------------------- */
 
 /* ----------------------------- Samandar ------------------------------- */
 
