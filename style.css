@@ -102,9 +102,127 @@ button {
 /* -------------------------------- footer -------------------------------- */
 /* -------------------------------- Muhammad ------------------------------ */
 
-.footer_wrap{
+.footer_wrap {
   width: 100%;
+  background-color: #0a0a0b;
+  background-image: url("./assets/foto/footer-shape2.svg"),
+    url("./assets/foto/footer-shape1.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: left top, right top;
 }
+
+.footer_container {
+
+  padding: 72px 0 32px 0;
+}
+.footer_content {
+  margin-bottom: 98px;
+}
+.footer_left {
+  margin-left: 128px;
+}
+
+.footer_left__groop {
+  gap: 8px;
+}
+
+.footer_left__icon {
+  width: 32px;
+}
+
+.footer_left__title {
+  color: white;
+  font-size: 24px;
+  font-family: Exo;
+  font-weight: 600;
+  line-height: 33.6px;
+}
+.footer_left__subtitle {
+  width: 198px;
+  margin-top: 24px;
+  color: #babec4;
+  font-size: 13px;
+  font-family: Exo;
+  font-weight: 400;
+  line-height: 18.2px;
+}
+
+.footer_company {
+  margin-left: 166px;
+}
+.footer_company__title {
+  margin-bottom: 24px;
+  width: 88px;
+  color: #f1f2f3;
+  font-size: 20px;
+  font-family: Exo;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.footer_company__list {
+  line-height: 2;
+}
+
+.footer_company__subtitle {
+  color: #babec4;
+  font-size: 16px;
+  font-family: Exo;
+  font-weight: 400;
+  line-height: 22.4px;
+}
+
+.footer_info__list {
+  line-height: 2;
+}
+.footer_info {
+  margin-left: 166px;
+}
+
+.footer_info__title {
+  margin-bottom: 24px;
+  color: #f1f2f3;
+  font-size: 20px;
+  font-family: Exo;
+  font-weight: 600;
+  line-height: 28px;
+}
+.footer_info__subtitle {
+  color: #babec4;
+  font-size: 16px;
+  font-family: Exo;
+  font-weight: 400;
+  line-height: 22.4px;
+}
+.footer_right {
+  margin-left: 166px;
+}
+
+.footer_right__title {
+  width: 90px;
+  color: #f1f2f3;
+  font-size: 20px;
+  font-family: Exo;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.footer__right__group{
+  gap: 24px;
+}
+.footer_bottom {
+  gap: 4px;
+}
+
+.footer_bottom__text {
+  width: 169px;
+  color: #888b91;
+  font-size: 12px;
+  font-family: Exo;
+  font-weight: 400;
+  line-height: 16.8px;
+}
+
 
 /* ------------------------------- /Muhammad ------------------------------ */
 /* -------------------------------- /footer -------------------------------- */
