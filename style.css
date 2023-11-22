@@ -362,9 +362,9 @@ button {
   box-sizing: border-box;
   border-radius: 20px;
   background: var(--container-color, #111213);
-  background-image: url(./assets/foto/card-shape.svg);
+  background-image: url(./assets/foto/card_shape.svg);
   background-repeat: no-repeat;
-  background-position: top left;
+  background-position: -40px -50px;
   background-size: 190px 190px;
   padding: 32px 22px 24px 24px;
 }
@@ -524,17 +524,13 @@ button {
 .main__title {
   text-align: center;
   color: var(--title-color, #f1f2f3);
-  font-family: Exo;
   font-size: 24px;
-  font-style: normal;
   font-weight: 600;
   line-height: 140%;
 }
 
 .car__models {
-  justify-content: center;
-  display: flex;
-  margin-top: 75px;
+  margin-top: 48px;
 }
 
 .all {
@@ -559,22 +555,22 @@ button {
   margin-left: 100px;
   margin-right: 100px;
   column-gap: 80px;
-  display: flex;
   margin-top: 72px;
   margin-bottom: 72px;
 }
 
 .second__line {
-  margin-left: 100px;
-  margin-right: 100px;
-  column-gap: 80px;
-  display: flex;
+  margin-left: 196px;
+  column-gap: 75px;
   margin-bottom: 75px;
 }
 
 .card__car {
   border-radius: 20px;
   background: var(--container-color, #111213);
+  background-image: url("./assets/foto/card_shape.svg");
+  background-repeat: no-repeat;
+  background-position: center;
   width: 248px;
   flex-shrink: 0;
   height: 310px;
@@ -586,9 +582,7 @@ button {
 
 .card__heading {
   color: var(--title-color, #f1f2f3);
-  font-family: Exo;
   font-size: 24px;
-  font-style: normal;
   font-weight: 600;
   line-height: 140%;
   margin-bottom: 6px;
@@ -597,9 +591,7 @@ button {
 
 .card_title {
   color: var(--text-color, #babec4);
-  font-family: Exo;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 140%;
   margin-bottom: 28px;
@@ -614,9 +606,7 @@ button {
 
 .card__price {
   color: var(--title-color, #f1f2f3);
-  font-family: Exo;
   font-size: 20px;
-  font-style: normal;
   font-weight: 600;
   line-height: 140%;
   margin-top: 26px;
@@ -637,7 +627,9 @@ button {
 }
 .special__add{
   flex-shrink: 0;
-  background: linear-gradient(180deg, rgba(32, 32, 56, 0.2) 0%, rgba(10, 10, 11, 0.50) 100%);
+  background-image: url("./assets/foto/subscribe-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 1280px;
   height: 392px;
   display: flex;
@@ -647,9 +639,7 @@ margin-left: 100px;
 }
 .special__heading {
   color: var(--title-color, #f1f2f3);
-  font-family: Exo;
   font-size: 24px;
-  font-style: normal;
   font-weight: 600;
   line-height: 140%;
   width: 312px;
@@ -659,9 +649,7 @@ margin-left: 100px;
 .special__subtitle{
   width: 375px;
   color: var(--text-color, #BABEC4);
-  font-family: Exo;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 140%;
   margin-bottom: 40px;
@@ -677,9 +665,7 @@ margin-left: 100px;
 }
 .suscribe{
   color: var(--white-color, #FFF);
-font-family: Exo;
 font-size: 16px;
-font-style: normal;
 font-weight: 500;
 line-height: 140%;
 }
@@ -688,11 +674,9 @@ line-height: 140%;
   margin-top: 100px;
 }
 .logos{
-  display: flex;
   column-gap: 120px;
-  margin-left: 125px;
   margin-top: 70px;
-  margin-bottom: 50px;
+  margin-bottom: 64px;
 }
 
 /* ------------------------------ /Samandar ----------------------------- */
