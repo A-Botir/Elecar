@@ -27,7 +27,7 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6, p{
   margin-top: 0;
   font-weight: bold;
 }
@@ -67,6 +67,12 @@ button {
   display: flex;
   align-items: center;
   justify-content: left;
+}
+
+.d-flex-sc {
+  display: flex;
+  align-items: start;
+  justify-content: center;
 }
 
 /* ------------------------ Normalize style---------------------------------- */
@@ -625,7 +631,7 @@ button {
   background: var(--first-color, #4177dc);
   margin-bottom: 0px;
 }
-.special__add{
+.special__add {
   flex-shrink: 0;
   background-image: url("./assets/foto/subscribe-bg.png");
   background-repeat: no-repeat;
@@ -635,7 +641,7 @@ button {
   display: flex;
 }
 .special__offer {
-margin-left: 100px;
+  margin-left: 100px;
 }
 .special__heading {
   color: var(--title-color, #f1f2f3);
@@ -646,34 +652,34 @@ margin-left: 100px;
   margin-bottom: 34px;
   margin-top: 70px;
 }
-.special__subtitle{
+.special__subtitle {
   width: 375px;
-  color: var(--text-color, #BABEC4);
+  color: var(--text-color, #babec4);
   font-size: 16px;
   font-weight: 400;
   line-height: 140%;
   margin-bottom: 40px;
 }
-.suscribe__btn{
+.suscribe__btn {
   display: inline-flex;
   padding: 14px 32px;
   flex-direction: column;
   align-items: flex-start;
   gap: 10px;
   border-radius: 4px;
-  background: var(--first-color, #4177DC);
+  background: var(--first-color, #4177dc);
 }
-.suscribe{
-  color: var(--white-color, #FFF);
-font-size: 16px;
-font-weight: 500;
-line-height: 140%;
+.suscribe {
+  color: var(--white-color, #fff);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 140%;
 }
-.tesla__special{
+.tesla__special {
   margin-left: 110px;
   margin-top: 100px;
 }
-.logos{
+.logos {
   column-gap: 120px;
   margin-top: 70px;
   margin-bottom: 64px;
@@ -696,14 +702,13 @@ line-height: 140%;
 }
 
 .footer_container {
-
-  padding: 72px 0 32px 0;
+  padding-top: 72px;
+  padding-bottom: 32px;
 }
+
 .footer_content {
   margin-bottom: 98px;
-}
-.footer_left {
-  margin-left: 128px;
+  gap: 166px;
 }
 
 .footer_left__groop {
@@ -731,15 +736,11 @@ line-height: 140%;
   line-height: 18.2px;
 }
 
-.footer_company {
-  margin-left: 166px;
-}
 .footer_company__title {
   margin-bottom: 24px;
   width: 88px;
   color: #f1f2f3;
   font-size: 20px;
-  font-family: Exo;
   font-weight: 600;
   line-height: 28px;
 }
@@ -759,39 +760,30 @@ line-height: 140%;
 .footer_info__list {
   line-height: 2;
 }
-.footer_info {
-  margin-left: 166px;
-}
 
 .footer_info__title {
   margin-bottom: 24px;
   color: #f1f2f3;
   font-size: 20px;
-  font-family: Exo;
   font-weight: 600;
   line-height: 28px;
 }
 .footer_info__subtitle {
   color: #babec4;
   font-size: 16px;
-  font-family: Exo;
   font-weight: 400;
   line-height: 22.4px;
 }
-.footer_right {
-  margin-left: 166px;
-}
 
 .footer_right__title {
-  width: 90px;
   color: #f1f2f3;
   font-size: 20px;
-  font-family: Exo;
   font-weight: 600;
   line-height: 28px;
+  margin-bottom: 24px;
 }
 
-.footer__right__group{
+.footer__right__group {
   gap: 24px;
 }
 .footer_bottom {
@@ -806,7 +798,6 @@ line-height: 140%;
   font-weight: 400;
   line-height: 16.8px;
 }
-
 
 /* ------------------------------- /Muhammad ------------------------------ */
 /* -------------------------------- /footer -------------------------------- */
